@@ -109,7 +109,6 @@
                                                         <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <state key="normal" title="7"/>
                                                         <connections>
-                                                            <action selector="Button7WithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HpZ-Bz-Mug"/>
                                                             <action selector="handleButtonPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cdD-we-JkL"/>
                                                         </connections>
                                                     </button>
@@ -120,7 +119,6 @@
                                                         <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <state key="normal" title="8"/>
                                                         <connections>
-                                                            <action selector="Button8WithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RPS-kw-1ql"/>
                                                             <action selector="handleButtonPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fHa-ri-7vs"/>
                                                         </connections>
                                                     </button>
@@ -131,7 +129,6 @@
                                                         <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <state key="normal" title="9"/>
                                                         <connections>
-                                                            <action selector="Button9WithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5YJ-U3-Wac"/>
                                                             <action selector="handleButtonPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xkw-pZ-1zd"/>
                                                         </connections>
                                                     </button>
@@ -162,7 +159,6 @@
                                                         <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <state key="normal" title="4"/>
                                                         <connections>
-                                                            <action selector="Button4WithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nOi-4D-USk"/>
                                                             <action selector="handleButtonPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Yle-NX-ZFb"/>
                                                         </connections>
                                                     </button>
@@ -173,7 +169,6 @@
                                                         <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <state key="normal" title="5"/>
                                                         <connections>
-                                                            <action selector="Button5WithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ccg-F9-0yD"/>
                                                             <action selector="handleButtonPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wsL-vH-hEg"/>
                                                         </connections>
                                                     </button>
@@ -184,7 +179,6 @@
                                                         <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <state key="normal" title="6"/>
                                                         <connections>
-                                                            <action selector="Button6WithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Cj8-AB-S3c"/>
                                                             <action selector="handleButtonPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZTc-LZ-Vw1"/>
                                                         </connections>
                                                     </button>
@@ -217,7 +211,6 @@
                                                         <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <state key="normal" title="1"/>
                                                         <connections>
-                                                            <action selector="Button1WithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Wef-YI-JeU"/>
                                                             <action selector="handleButtonPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NFX-eE-eQ7"/>
                                                         </connections>
                                                     </button>
@@ -228,7 +221,6 @@
                                                         <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <state key="normal" title="2"/>
                                                         <connections>
-                                                            <action selector="Button2WithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lCQ-3z-deh"/>
                                                             <action selector="handleButtonPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="V4M-fB-yfI"/>
                                                         </connections>
                                                     </button>
@@ -239,7 +231,6 @@
                                                         <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <state key="normal" title="3"/>
                                                         <connections>
-                                                            <action selector="Button3WithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2Ob-Z4-I0F"/>
                                                             <action selector="handleButtonPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZdR-zR-TfL"/>
                                                         </connections>
                                                     </button>
@@ -272,7 +263,6 @@
                                                         <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <state key="normal" title="0"/>
                                                         <connections>
-                                                            <action selector="Button0WithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gUa-N1-SGy"/>
                                                             <action selector="handleButtonPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="p9D-e4-xXK"/>
                                                         </connections>
                                                     </button>
