@@ -8,11 +8,17 @@
 
 import UIKit
 
+
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+    }
+    
+    override var preferredStatusBarStyle:
+        UIStatusBarStyle {
+        return .lightContent
     }
 
     override func didReceiveMemoryWarning() {
@@ -49,6 +55,8 @@ class ViewController: UIViewController {
     @IBAction func Button0(sender: UIButton) {
         print("0")
     }
- 
+
 }
+
+
 
