@@ -11,6 +11,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var OutputLabel: UILabel!
+    
+    var firstNumberText = ""
+    var secondNumberText = ""
+    var op = ""
+    var isFirstNumber = true
+    var hasOp = false
+    var canClear = true
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -25,36 +34,61 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    @IBAction func Button1(sender: UIButton) {
-        print("1")
+   
+    @IBAction func handleButtonPress(_ sender: UIButton) {
+        if canClear {
+            OutputLabel.text = ""
+            canClear = false
     }
-    @IBAction func Button2(sender: UIButton) {
-        print("2")
+    let currentText = OutputLabel.text!
+    let textLabel = sender.titleLabel?.text
+        if let text = textLabel {
+        switch text {
+        case "+", "*","/","-":
+            if hasOp {
+                return
+            }
+            op = text
+            isFirstNumber = false
+            hasOp = true
+            OutputLabel.text = "\(currentText) \(op) "
+            break
+        default:
+            if isFirstNumber{
+                firstNumberText = "\(firstNumberText)\(text)"
+            } else {
+                secondNumberText = "\(secondNumberText)\(text)"
+            }
+            OutputLabel.text = "\(currentText)\(text)"
+            break;
+            }
+        }
     }
-    @IBAction func Button3(sender: UIButton) {
-        print("3")
+    
+    
+    
+
+
+func calculate() -> Double {
+    let firstNumber = Double(firstNumberText)!
+    let secondNumber = Double(secondNumberText)
+    firstNumberText = ""
+    secondNumberText = ""
+    switch op {
+    case "+":
+        return firstNumber + secondNumber!
+    case "-":
+        return firstNumber - secondNumber!
+    case "/":
+        return firstNumber / secondNumber!
+    case "*":
+        return firstNumber * secondNumber!
+    default:
+        return 0
+        
     }
-    @IBAction func Button4(sender: UIButton) {
-        print("4")
-    }
-    @IBAction func Button5(sender: UIButton) {
-        print("5")
-    }
-    @IBAction func Button6(sender: UIButton) {
-        print("6")
-    }
-    @IBAction func Button7(sender: UIButton) {
-        print("7")
-    }
-    @IBAction func Button8(sender: UIButton) {
-        print("8")
-    }
-    @IBAction func Button9(sender: UIButton) {
-        print("9")
-    }
-    @IBAction func Button0(sender: UIButton) {
-        print("0")
-    }
+    
+  }
 
 }
 
